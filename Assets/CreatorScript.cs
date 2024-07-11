@@ -6,6 +6,7 @@ public class CreatorScript : MonoBehaviour
 {
     public GameObject MyBallGameObject;
     public Vector3 MyInstantiatePosition;
+    public Quaternion MyQuaterionion;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class CreatorScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GameObject.Instantiate(MyBallGameObject, MyInstantiatePosition, Quaternion.identity);
+            Instantiate(MyBallGameObject, MyInstantiatePosition, MyQuaterionion);
         }
     }
 }
