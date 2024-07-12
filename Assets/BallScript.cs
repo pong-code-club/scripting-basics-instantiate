@@ -7,6 +7,7 @@ public class BallScript : MonoBehaviour
     public Rigidbody MyRidgidbody;
     public Vector3 MyForceVector3;
     public ForceMode MyForceMode;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,6 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
